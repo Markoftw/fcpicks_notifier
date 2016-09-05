@@ -1,0 +1,31 @@
+{
+    "name": "markoftw/fcpicks",
+    "description": "FC Picks Notifier",
+    "type": "library",
+	"keywords": ["fcpicks"],
+    "require": {
+        "php": ">=5.5.9",
+		"guzzlehttp/guzzle": "~5.3",
+		"league/flysystem": "~1.0",
+		"symfony/dom-crawler": "~3.0@dev",
+		"symfony/css-selector": "~3.0@dev",
+		"devster/ubench": "~1.1@dev",
+		"phpmailer/phpmailer": "~5.2"
+    },
+	"require-dev": {
+		"digitalnature/php-ref": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marko",
+            "email": "marko@marefx.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Markoftw\\fcpicks\\": "src/"
+        }
+    },
+	"minimum-stability" : "dev"
+}
